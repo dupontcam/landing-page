@@ -2,21 +2,30 @@ export default function About(){
   return (
     <main>
       <h5>
-        Sobre
+        Sobre Nós
       </h5>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta tellus vitae ex tincidunt, et mattis libero condimentum. Aenean finibus, nunc consectetur fermentum tempus, magna tellus efficitur nibh, et dapibus augue nisl vitae diam. Mauris cursus laoreet lacinia. Ut faucibus placerat sem, placerat posuere felis venenatis ut. Integer ultrices nisl lorem, eget sodales tellus malesuada sit amet. Fusce facilisis venenatis nunc, quis venenatis ipsum facilisis sed. Aliquam tristique consequat tortor.
+      <p>A Clínica Médica é uma instituição de saúde comprometida em fornecer cuidados médicos de alta qualidade para nossos pacientes. Localizada na cidade de Brasília - DF, nossa clínica oferece uma ampla gama de serviços médicos em um ambiente acolhedor e confortável.</p>
 
-Nullam convallis odio a varius scelerisque. Praesent nec congue massa, at facilisis urna. Etiam sollicitudin, dui a dapibus tincidunt, leo purus egestas ante, at condimentum erat lorem vel velit. Donec et nisi libero. Morbi finibus massa in enim fringilla faucibus. Nullam porta justo nec dapibus suscipit. Proin ac erat felis. Nulla ac augue eu magna scelerisque posuere. Nulla nec enim nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce a ligula gravida, hendrerit ex at, aliquam sem. Integer nulla nunc, mattis sit amet accumsan sit amet, condimentum quis sem. Pellentesque lacinia libero vel venenatis sollicitudin. Ut risus est, fringilla vel quam sit amet, feugiat vestibulum felis.
+      <p>Nossos médicos e profissionais de saúde altamente qualificados estão dedicados a proporcionar uma experiência positiva para cada paciente, oferecendo atendimento personalizado e tratamentos eficazes.</p>
 
-Cras et laoreet neque. Sed scelerisque, risus sit amet fringilla eleifend, lorem nisl pharetra lorem, vitae porta est mauris a magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque egestas pharetra tincidunt. Ut placerat neque malesuada sapien dictum, eu placerat mauris imperdiet. Quisque pharetra libero nibh, quis pretium dui tincidunt non. Duis cursus lorem sed nisl ornare facilisis. Mauris vel lacinia enim. Sed nisi sem, ultricies sed scelerisque id, rhoncus sed magna. Nam eget convallis leo. In mollis diam ut imperdiet lobortis. Cras ac pellentesque nisi, eu congue magna. Aenean et porttitor orci, sed venenatis neque.
+      <p>Na Clínica Médica, valorizamos a confiança e a segurança dos nossos pacientes. Estamos empenhados em manter os mais altos padrões éticos e profissionais em todas as nossas práticas médicas.</p>
 
-Maecenas sit amet urna eget diam molestie vehicula. Integer eros magna, viverra semper eleifend non, sagittis vel tellus. Nunc blandit fringilla nibh nec maximus. Vestibulum scelerisque enim ac purus posuere pharetra. Aliquam rutrum orci dui, sit amet tempus nisi scelerisque ut. Duis hendrerit pulvinar nisl, at sagittis risus auctor lacinia. Curabitur non fermentum velit. Mauris suscipit nulla sed justo faucibus, et porttitor ante rhoncus. Duis molestie ipsum vitae odio dapibus, a ullamcorper sem tincidunt. Integer consequat metus dui, id cursus justo vulputate vitae. Nunc a lacinia lorem. Suspendisse vehicula, orci sed auctor posuere, neque arcu semper urna, sed pharetra mauris sapien vitae urna. Maecenas posuere malesuada nisi, nec ultrices nibh hendrerit vitae.
+      <p>Além de nossos serviços clínicos, também nos orgulhamos de ser uma comunidade ativa, participando regularmente em programas de educação e conscientização sobre saúde em nossa região.</p>
 
-Donec non feugiat velit. Nulla condimentum libero a sem euismod fringilla eu et velit. Morbi vitae erat magna. Morbi ac ipsum aliquam, suscipit risus vel, efficitur sem. Maecenas malesuada viverra tempus. Suspendisse non magna malesuada, placerat justo eget, porttitor mauris. Quisque vitae elementum quam. Praesent a sapien mi. Ut quis dui non ligula imperdiet ultrices. Suspendisse fringilla aliquet est, faucibus lacinia augue feugiat eget. Sed maximus nunc elit, blandit faucibus quam molestie eu. Etiam eu turpis ultricies, feugiat nisl eu, ultricies diam. Pellentesque egestas, quam et eleifend maximus, orci leo congue magna, vel porta erat nisi at mauris. Cras consectetur odio odio, vitae tempor augue viverra vel.
+      <p>Agradecemos por escolher a Clínica Médica para suas necessidades médicas. Estamos aqui para ajudá-lo a alcançar uma vida mais saudável e feliz.</p>
 
-Generated 5 paragraphs, 516 words, 3523 bytes of Lorem Ipsum
-      </p>
+      <p>Para obter mais informações ou agendar uma consulta, entre em contato conosco em:</p>
+
+      <div className="contact-info">
+        <p>
+          Telefone: (61) 99999-9999
+        </p>
+        <p>
+          E-mail: contato@clinicamedica.com
+        </p>
+      </div>
+
+      <p>Obrigado por confiar em nós com sua saúde.</p>
     </main>
     
     

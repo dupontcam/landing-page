@@ -1,20 +1,61 @@
-import { Link } from "react-router-dom";
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-fade';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+//import './App.css';
+
+// import required modules
+import { Autoplay, Pagination, Navigation, EffectFade } from 'swiper/modules';
+
+import Fachada from '../images/fachada.png';
+import Recepcao from '../images/recepcao-clinica.png';
+import Consultorio_Um from '../images/consultorio3.png';
+import Consultorio_dois from '../images/consultorio4.png';
+
 
 export default function Main() {
+
+  const data = [
+    { id: '1', image: Fachada },
+    { id: '2', image: Recepcao },
+    { id: '3', image: Consultorio_Um },
+    { id: '3', image: Consultorio_dois },
+  ]
+
   return (
-    <main>
-          <aside>
-            <h2><span>Agende uma</span></h2>
-            <h2>Consulta</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            <form>
-              <input type="text" placeholder="nome"/>
-              <input type="email" placeholder="E-mail"/>
-              <Link to="/agendamento-consulta">
-                <input type="submit" value="Agendar agora" />
-              </Link> 
-            </form>
-          </aside>
-      </main>
-  )
+    <div className="container">
+      <Swiper
+        effect={'fade'}
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        loop={true}
+        modules={[Autoplay, Pagination, Navigation, EffectFade]}
+        className="mySwiper"
+      >
+        {data.map( (item) => (
+            <SwiperSlide key={item.id}>
+              <img
+                src={item.image}
+                alt='Slider'
+                className='slide-item'
+              />
+            </SwiperSlide>
+          ))}
+      </Swiper>
+    </div>
+  );
 }

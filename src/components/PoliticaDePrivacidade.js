@@ -4,19 +4,32 @@ export default function PoliticaDePrivacidade(){
       <h5>
       Política de Privacidade
       </h5>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta tellus vitae ex tincidunt, et mattis libero condimentum. Aenean finibus, nunc consectetur fermentum tempus, magna tellus efficitur nibh, et dapibus augue nisl vitae diam. Mauris cursus laoreet lacinia. Ut faucibus placerat sem, placerat posuere felis venenatis ut. Integer ultrices nisl lorem, eget sodales tellus malesuada sit amet. Fusce facilisis venenatis nunc, quis venenatis ipsum facilisis sed. Aliquam tristique consequat tortor.
+      <p>A Clínica Médica está comprometida em proteger a privacidade dos usuários do nosso site. Esta Política de Privacidade descreve como coletamos, usamos e protegemos suas informações pessoais quando você visita nosso site.</p>
 
-Nullam convallis odio a varius scelerisque. Praesent nec congue massa, at facilisis urna. Etiam sollicitudin, dui a dapibus tincidunt, leo purus egestas ante, at condimentum erat lorem vel velit. Donec et nisi libero. Morbi finibus massa in enim fringilla faucibus. Nullam porta justo nec dapibus suscipit. Proin ac erat felis. Nulla ac augue eu magna scelerisque posuere. Nulla nec enim nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce a ligula gravida, hendrerit ex at, aliquam sem. Integer nulla nunc, mattis sit amet accumsan sit amet, condimentum quis sem. Pellentesque lacinia libero vel venenatis sollicitudin. Ut risus est, fringilla vel quam sit amet, feugiat vestibulum felis.
+      <p>1. Informações Coletadas:
+        - Informações de identificação pessoal, como nome, e-mail e número de telefone, que você nos fornece voluntariamente através de formulários de contato ou solicitação de agendamento.
+        - Informações de uso do site, como endereço IP, tipo de navegador, páginas visitadas e data/hora de acesso, coletadas automaticamente por meio de cookies e tecnologias similares.</p>
 
-Cras et laoreet neque. Sed scelerisque, risus sit amet fringilla eleifend, lorem nisl pharetra lorem, vitae porta est mauris a magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque egestas pharetra tincidunt. Ut placerat neque malesuada sapien dictum, eu placerat mauris imperdiet. Quisque pharetra libero nibh, quis pretium dui tincidunt non. Duis cursus lorem sed nisl ornare facilisis. Mauris vel lacinia enim. Sed nisi sem, ultricies sed scelerisque id, rhoncus sed magna. Nam eget convallis leo. In mollis diam ut imperdiet lobortis. Cras ac pellentesque nisi, eu congue magna. Aenean et porttitor orci, sed venenatis neque.
+        <p>2. Uso das Informações:
+        - Utilizamos suas informações pessoais para responder às suas consultas, agendar consultas médicas e fornecer informações sobre nossos serviços.
+        - Utilizamos informações de uso do site para melhorar a experiência do usuário, analisar tendências e administrar o site.</p>
 
-Maecenas sit amet urna eget diam molestie vehicula. Integer eros magna, viverra semper eleifend non, sagittis vel tellus. Nunc blandit fringilla nibh nec maximus. Vestibulum scelerisque enim ac purus posuere pharetra. Aliquam rutrum orci dui, sit amet tempus nisi scelerisque ut. Duis hendrerit pulvinar nisl, at sagittis risus auctor lacinia. Curabitur non fermentum velit. Mauris suscipit nulla sed justo faucibus, et porttitor ante rhoncus. Duis molestie ipsum vitae odio dapibus, a ullamcorper sem tincidunt. Integer consequat metus dui, id cursus justo vulputate vitae. Nunc a lacinia lorem. Suspendisse vehicula, orci sed auctor posuere, neque arcu semper urna, sed pharetra mauris sapien vitae urna. Maecenas posuere malesuada nisi, nec ultrices nibh hendrerit vitae.
+        <p>3. Compartilhamento de Informações:
+        - Não compartilhamos suas informações pessoais com terceiros, exceto quando necessário para fornecer serviços solicitados por você ou quando exigido por lei.
+        - Podemos compartilhar informações não pessoais de forma agregada para fins de pesquisa ou estatísticas.</p>
 
-Donec non feugiat velit. Nulla condimentum libero a sem euismod fringilla eu et velit. Morbi vitae erat magna. Morbi ac ipsum aliquam, suscipit risus vel, efficitur sem. Maecenas malesuada viverra tempus. Suspendisse non magna malesuada, placerat justo eget, porttitor mauris. Quisque vitae elementum quam. Praesent a sapien mi. Ut quis dui non ligula imperdiet ultrices. Suspendisse fringilla aliquet est, faucibus lacinia augue feugiat eget. Sed maximus nunc elit, blandit faucibus quam molestie eu. Etiam eu turpis ultricies, feugiat nisl eu, ultricies diam. Pellentesque egestas, quam et eleifend maximus, orci leo congue magna, vel porta erat nisi at mauris. Cras consectetur odio odio, vitae tempor augue viverra vel.
+        <p>4. Segurança das Informações:
+        - Implementamos medidas de segurança para proteger suas informações pessoais contra acesso não autorizado, uso indevido ou alteração.
+        - No entanto, observe que a transmissão de informações pela Internet não é totalmente segura e não podemos garantir a segurança absoluta dos dados transmitidos.</p>
 
-Generated 5 paragraphs, 516 words, 3523 bytes of Lorem Ipsum
-      </p>
+        <p>5. Alterações na Política de Privacidade:
+        - Reservamo-nos o direito de modificar esta Política de Privacidade a qualquer momento, publicando uma versão atualizada em nosso site.
+        - Recomendamos que você revise periodicamente esta Política de Privacidade para estar ciente de quaisquer alterações.</p>
+
+        <p>6. Consentimento:
+        - Ao utilizar nosso site, você consente com a coleta e uso de suas informações pessoais conforme descrito nesta Política de Privacidade.</p>
+
+        <p>Se você tiver alguma dúvida ou preocupação sobre nossa Política de Privacidade, entre em contato conosco através do e-mail: privacidade@clinicamedica.com.</p>
     </main>
     
   )

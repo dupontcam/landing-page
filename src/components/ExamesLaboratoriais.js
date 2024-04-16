@@ -1,18 +1,24 @@
 export default function ExamesLaboratoriais(){
   return (
-    <main>
-        <ul id="examesLaboratoriais">
+    <main className="exames-laboratoriais">
+      <div>
+        <ul>
             <li>Hemograma completo</li>
-            <li>Glicemia</li>
+            <li>TGO</li>
             <li>Colesterol total</li>
             <li>Triglicerídeos</li>
             <li>Urina tipo I</li>
             <li>Creatinina</li>
-            <li>TGO (Transaminase glutâmico-oxalacética)</li>
-            <li>TGP (Transaminase glutâmico-pirúvica)</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+            <li>Glicemia</li>
+            <li>TGP</li>
             <li>Ureia</li>
             <li>Ácido úrico</li>
         </ul>
+      </div>
     </main>
   )
 }

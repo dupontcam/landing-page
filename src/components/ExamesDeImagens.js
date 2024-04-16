@@ -1,18 +1,23 @@
 export default function ExamesDeImagens(){
   return (
-    <main>
-        <ul id="examesImagens">
+    <main className="exames-imagens">
+      <div>
+        <ul>
             <li>Radiografia (Raio-X)</li>
-            <li>Ultrassonografia (Ultrassom)</li>
-            <li>Ressonância Magnética (RM)</li>
+            <li>Ecocardiograma</li>
             <li>Tomografia Computadorizada (TC)</li>
             <li>Mamografia</li>
-            <li>Densitometria Óssea</li>
-            <li>Ecocardiograma</li>
             <li>Endoscopia</li>
-            <li>Colonoscopia</li>
-            <li>Angiografia</li>
         </ul>
+      </div>
+      <div>
+        <ul>
+            <li>Ressonância Magnética (RM)</li>            
+            <li>Colonoscopia</li>
+            <li>Densitometria Óssea</li>
+            <li>Ultrassonografia (Ultrassom)</li>
+        </ul>
+      </div>
     </main>
   )
 }

@@ -1,0 +1,30 @@
+@media all and (max-width: 760px){
+
+  .especialidades li{
+    margin-right: 60px;
+  }
+
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+
+  main{
+      flex-direction: column;
+  }
+
+  input{
+      align-self: center;
+  }
+
+  img{
+      display: none;
+  }
+
+  li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+}
