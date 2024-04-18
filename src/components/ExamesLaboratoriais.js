@@ -3,7 +3,7 @@ export default function ExamesLaboratoriais(){
     <main className="exames-laboratoriais">
       <div>
         <ul>
-            <li>Hemograma completo</li>
+            <li id="linha1">Hemograma completo</li>
             <li>TGO</li>
             <li>Colesterol total</li>
             <li>Triglicerídeos</li>
@@ -13,7 +13,7 @@ export default function ExamesLaboratoriais(){
       </div>
       <div>
         <ul>
-            <li>Glicemia</li>
+            <li id="linha1">Glicemia</li>
             <li>TGP</li>
             <li>Ureia</li>
             <li>Ácido úrico</li>

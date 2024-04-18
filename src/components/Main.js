@@ -29,33 +29,36 @@ export default function Main() {
   ]
 
   return (
-    <div className="container">
-      <Swiper
-        effect={'fade'}
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        loop={true}
-        modules={[Autoplay, Pagination, Navigation, EffectFade]}
-        className="mySwiper"
-      >
-        {data.map( (item) => (
-            <SwiperSlide key={item.id}>
-              <img
-                src={item.image}
-                alt='Slider'
-                className='slide-item'
-              />
-            </SwiperSlide>
-          ))}
-      </Swiper>
+    <div className="main-container">
+      <div className="glass-effect" />
+      <div className="swiper-container">
+        <Swiper
+          effect={'fade'}
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          loop={true}
+          modules={[Autoplay, Pagination, Navigation, EffectFade]}
+          className="mySwiper"
+        >
+          {data.map( (item) => (
+              <SwiperSlide key={item.id}>
+                <img
+                  src={item.image}
+                  alt='Slider'
+                  className='slide-item'
+                />
+              </SwiperSlide>
+            ))}
+        </Swiper>
+      </div>
     </div>
   );
 }

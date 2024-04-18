@@ -3,7 +3,7 @@ export default function Especialidades(){
     <main className="especialidades">
       <div>
         <ul>
-            <li>Cardiologia</li>
+            <li id="linha1">Cardiologia</li>
             <li>Dermatologia</li>
             <li>Endocrinologia</li>
             <li>Gastroenterologia</li>
@@ -13,7 +13,7 @@ export default function Especialidades(){
       </div>
       <div>
         <ul>
-            <li>Ortopedia</li>
+            <li id="linha1">Ortopedia</li>
             <li>Pediatria</li>
             <li>Psiquiatria</li>
             <li>Radiologia</li>

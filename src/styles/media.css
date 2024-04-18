@@ -1,30 +1,52 @@
-@media all and (max-width: 760px){
+/* media.css */
 
-  .especialidades li{
-    margin-right: 60px;
-  }
+/* Estilos para telas menores que 800px */
 
-  header{
+@media screen and (max-width: 720px) {
+  /* Flex direction para .top-header e .interface */
+  .top-header .interface{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Centraliza os itens verticalmente */
   }
 
-  main{
-      flex-direction: column;
+  .bottom-header nav ul li a {
+    font-weight: 500;
+    font-size: smaller;
+  }
+  /* Estilo para o logotipo */
+  .logotipo {
+    margin-bottom: 20px; /* Adiciona espaço abaixo do logotipo */
   }
 
-  input{
-      align-self: center;
+  /* Estilos para os botões sociais */
+  .btn-social {
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    margin-bottom: 20px; /* Adiciona espaço abaixo dos botões sociais */
   }
 
-  img{
-      display: none;
+  .btn-social button {
+    margin: 0 10px; /* Adiciona espaço entre os botões sociais */
+  }
+
+  main {
+    font-size: small;
+    height: 810px;
+  }
+
+  h5 {
+    font-size: medium;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    padding: 0; /* Remove o preenchimento padrão da lista */
+    
+    list-style: none; /* Remove os marcadores de lista padrão */
   }
 
   li {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
+    margin-bottom: 2px; /* Adiciona espaço entre os itens da lista */
   }
 }
