@@ -1,9 +1,9 @@
 export default function PoliticaDePrivacidade(){
   return (
     <main>
-      <h5>
+      <h1>
       Política de Privacidade
-      </h5>
+      </h1>
       <p>A Clínica Médica está comprometida em proteger a privacidade dos usuários do nosso site. Esta Política de Privacidade descreve como coletamos, usamos e protegemos suas informações pessoais quando você visita nosso site.</p>
 
       <p>1. Informações Coletadas:

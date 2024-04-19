@@ -1,9 +1,9 @@
 export default function TermosDeUso(){
   return (
     <main>
-      <h5>
+      <h1>
         Termos de Uso
-      </h5>
+      </h1>
       <p>Bem-vindo ao site da Clínica Médica!</p>
 
       <p>Ao acessar e utilizar este site, você concorda em cumprir estes termos e condições de uso. Se você não concordar com qualquer parte destes termos, por favor, não utilize nosso site.</p>

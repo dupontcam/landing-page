@@ -1,52 +1,65 @@
-/* media.css */
-
-/* Estilos para telas menores que 800px */
 
 @media screen and (max-width: 720px) {
-  /* Flex direction para .top-header e .interface */
+  
   .top-header .interface{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center; /* Centraliza os itens verticalmente */
+    align-items: center;
   }
 
   .bottom-header nav ul li a {
     font-weight: 500;
-    font-size: smaller;
+    font-size: small;
+    padding: 5px 25px 4px 6px;
   }
-  /* Estilo para o logotipo */
+ 
   .logotipo {
-    margin-bottom: 20px; /* Adiciona espaço abaixo do logotipo */
+    margin-bottom: 20px;
   }
 
-  /* Estilos para os botões sociais */
   .btn-social {
-    justify-content: center; /* Centraliza os botões horizontalmente */
-    margin-bottom: 20px; /* Adiciona espaço abaixo dos botões sociais */
+    justify-content: center;
+    margin-bottom: 20px;
   }
 
   .btn-social button {
-    margin: 0 10px; /* Adiciona espaço entre os botões sociais */
+    margin: 0 10px;
+  }
+
+  .drop-hover:hover .drop{
+    height: 100px;
+  }
+  
+  .drop-hover:hover .drops{
+    height: 100px;
+  }
+
+  span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .agendar a svg {
+    padding: 2px;
+    margin-left: 45px;
   }
 
   main {
     font-size: small;
-    height: 810px;
-  }
-
-  h5 {
-    font-size: medium;
-    margin-bottom: 20px;
+    height: 890px;
   }
 
   ul {
-    padding: 0; /* Remove o preenchimento padrão da lista */
+    padding: 0;
     
-    list-style: none; /* Remove os marcadores de lista padrão */
+    list-style: none;
   }
 
   li {
-    margin-bottom: 2px; /* Adiciona espaço entre os itens da lista */
+    margin-bottom: 2px;
   }
 }

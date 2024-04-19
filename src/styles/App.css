@@ -63,7 +63,7 @@ footer {
 }
 
 .bottom-header .interface{
-  background-image: linear-gradient(180deg, #00e17f, #00ffbf);
+  background-color: #00e17f;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
@@ -73,7 +73,6 @@ footer {
   align-items: center;
   justify-content: center;
   list-style-type: none;
-  
 }
 
 .bottom-header nav ul li a{
@@ -86,8 +85,8 @@ footer {
   transition: .1s;
 }
 
-#agendar{
-  text-align: center;
+span{
+  margin-right: 10px;
 }
 
 .bottom-header nav ul li a:hover{
@@ -103,7 +102,7 @@ footer {
 
 .drop-hover .drop{
   position: absolute;
-  background-image: linear-gradient(180deg, #00e17f, #00ffbf);
+  background-color: #00e17f;
   border-radius: 8px;
   width: 100%;
   height: 0;
@@ -114,7 +113,7 @@ footer {
 
 .drop-hover .drops{
   position: absolute;
-  background-image: linear-gradient(180deg, #00e17f, #00ffbf);
+  background-color: #00e17f;
   border-radius: 8px;
   width: 100%;
   height: 0;
@@ -157,7 +156,7 @@ footer {
 }
 
 .especialidades li{
-  background-image: linear-gradient(25deg, #00e17f, #00eeff);
+  background-color: #00e17f;
   border-radius: 8px;
   color: #02481d;
   list-style-type: none;
@@ -179,7 +178,7 @@ footer {
 }
 
 .exames-laboratoriais li{  
-  background-image: linear-gradient(25deg, #00e17f, #00eeff);
+  background-color: #00e17f;
   border-radius: 8px;
   color: #02481d;
   list-style-type: none;
@@ -201,7 +200,7 @@ footer {
 }
 
 .exames-imagens li{
-  background-image: linear-gradient(25deg, #00e17f, #00eeff);
+  background-color: #00e17f;
   border-radius: 8px;
   color: #02481d;
   list-style-type: none;
@@ -210,8 +209,8 @@ footer {
   font-weight: 600;
   padding: 4px 4px 4px 4px;
   margin-top: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
   margin-bottom: 20px;
 }
 
@@ -221,10 +220,11 @@ footer {
   font-weight: 700;
 }
 
-h5{
-  font-size: x-large;
+h1 {
+  font-size: 20px;
+  font-weight: 500;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 main{
@@ -232,7 +232,7 @@ main{
   background-color: rgba(255, 255, 255, 0.5); 
   z-index: 2;
   border-radius: 8px;
-  height: 610px;
+  height: 930px;
   font-size: medium;
   text-align: justify;  
   font-weight: 400;
@@ -274,4 +274,62 @@ main{
   height: 100%;
   backdrop-filter: blur(10px);
   background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.container-contato {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  height: 150px;
+}
+
+.form-group input[type="submit"] {
+  background-color: #00e17f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #21b278;
+}
+
+.map {
+  margin-top: 20px;
+}
+
+.map-marker {
+  margin-top: -30px;
 }

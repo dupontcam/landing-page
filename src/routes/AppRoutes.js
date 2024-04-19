@@ -9,6 +9,7 @@ import Footer from '../components/Footer';
 import About from '../components/About';
 import PoliticaDePrivacidade from '../components/PoliticaDePrivacidade';
 import TermosDeUso from '../components/TermosDeUso';
+import Contato from '../components/Contato';
 
 function AppRoutes() {
   return (
@@ -23,6 +24,7 @@ function AppRoutes() {
           <Route path="/about" element={<About />} />
           <Route path="/politica" element={<PoliticaDePrivacidade />} />
           <Route path="/termos" element={<TermosDeUso />} />
+          <Route path="/contato" element={<Contato />} />
         </Routes>
       <Footer />
     </React.Fragment>

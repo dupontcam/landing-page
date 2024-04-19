@@ -1,9 +1,12 @@
+import ClinicLocation from "./ClinicLocation";
+
+
 export default function About(){
   return (
     <main>
-      <h5>
+      <h1>
         Sobre Nós
-      </h5>
+      </h1>
       <p>A Clínica Médica é uma instituição de saúde comprometida em fornecer cuidados médicos de alta qualidade para nossos pacientes. Localizada na cidade de Brasília - DF, nossa clínica oferece uma ampla gama de serviços médicos em um ambiente acolhedor e confortável.</p>
 
       <p>Nossos médicos e profissionais de saúde altamente qualificados estão dedicados a proporcionar uma experiência positiva para cada paciente, oferecendo atendimento personalizado e tratamentos eficazes.</p>
@@ -26,8 +29,10 @@ export default function About(){
       </div>
 
       <p>Obrigado por confiar em nós com sua saúde.</p>
+      
+      <div>
+        <ClinicLocation />
+      </div>
     </main>
-    
-    
   )
 }
