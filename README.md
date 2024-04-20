@@ -24,7 +24,7 @@ Execute os seguintes passos para ter o ambiente de desenvolvimento em execução
 6. Digite `code .` para abrir a pasta no editor VS Code.
 7. No editor VS Code digite ` ctrl + ' ` para abrir o terminal integrado.
 8. No terminal, certifique-se de que está dentro da pasta "landing-page".
-9. No terminal integrado digite `npm instal`. Isso fará com que as dependências do aplicativo desjam instaladas.
+9. No terminal integrado digite `npm install`. Isso fará com que as dependências do aplicativo desjam instaladas.
 10. No terminal integrado, digite `npm start` para executar o website e abrir automaticamente no navegador padrão do seu computador.
 11. Caso não abra o navegador automaticamente, acesse `http://localhost:3000`.
 
