@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Título do projeto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sistematização da disciplina Programação e Desenvolvimento WEB do curso de Tecnologia em Análise e Desenvolvimento de Sistemas da instituição CEUB.
 
-## Available Scripts
+Uma clínica oferece diversos serviços de saúde, desde atendimento médico, exames laboratoriais e de imagem, aconselhamento nutricional, entre outros procedimentos. Recentemente houve uma mudança na administração da clínica e os novos gestores decidiram reformular todas as soluções de tecnologia da empresa a fim de melhorar a experiência dos pacientes. Para isso, a clínica contratou a empresa onde você trabalha para desenvolver as soluções a seguir:
 
-In the project directory, you can run:
+Projeto 01 - Uma landing page estática apresentando as principais informações da clínica, bem como seus principais serviços.
 
-### `npm start`
+### 📋 Pré-requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [FRAMEWORK NODEJS v20](https://nodejs.org/en)
+- [EDITOR VISUAL STUDIO CODE OU OUTRO EDITOR DA SUA PREFERÊNCIA](https://code.visualstudio.com/)
+- [SISTEMA DE CONTROLE DE VERSÃO GIT](https://git-scm.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🔧 Instalação
 
-### `npm test`
+Execute os seguintes passos para ter o ambiente de desenvolvimento em execução:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Acesse a opção <>Code no canto superior direito e copie a URL em HTTPS.
+2. Abra o terminal Git Bash no local onde você deseja clonar o projeto.
+3. Digite `git clone https://github.com/dupontcam/landing-page.git` e tecle ENTER.
+4. Digite `ls` para ver a pasta criada.
+5. Digite `cd landing-page` para entrar na pasta.
+6. Digite `code .` para abrir a pasta no editor VS Code.
+7. No editor VS Code digite ` ctrl + ' ` para abrir o terminal integrado.
+8. No terminal, certifique-se de que está dentro da pasta "landing-page".
+9. No terminal integrado digite `npm instal`. Isso fará com que as dependências do aplicativo desjam instaladas.
+10. No terminal integrado, digite `npm start` para executar o website e abrir automaticamente no navegador padrão do seu computador.
+11. Caso não abra o navegador automaticamente, acesse `http://localhost:3000`.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
