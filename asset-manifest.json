@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/landing-page/static/css/main.351db221.css",
+    "main.js": "/landing-page/static/js/main.c6bed507.js",
+    "static/media/background.jpg": "/landing-page/static/media/background.c3c50fa45b53b5665a42.jpg",
+    "static/media/fachada.png": "/landing-page/static/media/fachada.bc8850495af52ae55be0.png",
+    "static/media/consultorio3.png": "/landing-page/static/media/consultorio3.efcbc175bf98368174e4.png",
+    "static/media/recepcao-clinica.png": "/landing-page/static/media/recepcao-clinica.18ad08cd9f94db34d311.png",
+    "static/media/consultorio4.png": "/landing-page/static/media/consultorio4.396ada188fd173476ab3.png",
+    "static/media/logoverdetransp.png": "/landing-page/static/media/logoverdetransp.70758b5c9c05d949ed4d.png",
+    "index.html": "/landing-page/index.html",
+    "main.351db221.css.map": "/landing-page/static/css/main.351db221.css.map",
+    "main.c6bed507.js.map": "/landing-page/static/js/main.c6bed507.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.351db221.css",
+    "static/js/main.c6bed507.js"
+  ]
+}
