@@ -6,6 +6,10 @@ Uma clínica oferece diversos serviços de saúde, desde atendimento médico, ex
 
 Projeto 01 - Uma landing page estática apresentando as principais informações da clínica, bem como seus principais serviços.
 
+## Github Page
+
+- [Clínica Médica](https://dupontcam.github.io/landing-page/)
+
 ### 📋 Pré-requisitos
 
 - [FRAMEWORK NODEJS v20](https://nodejs.org/en)
